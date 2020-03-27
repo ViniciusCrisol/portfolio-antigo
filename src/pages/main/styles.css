@@ -1,0 +1,63 @@
+:root {
+  --verdeclaro: #f2bf5e;
+  --verdeescuro: #4e4376;
+  --azulescuro: #141526;
+  --azulclaro: #2e3159;
+}
+
+.corpo {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.hero h1 {
+  color: white;
+  margin-top: 150px;
+  font-weight: normal;
+  font-size: 46px;
+}
+.hero h2 {
+  margin-top: -10px;
+  color: lightgray;
+  font-weight: normal;
+}
+.info {
+  width: 100%;
+  height: 300px;
+  margin-top: 130px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.info h1 {
+  color: var(--azulclaro);
+}
+.info p {
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.info a {
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--verdeescuro);
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--verdeescuro);
+}
+.info a:hover {
+  color: var(--verdeclaro);
+  transition: 200ms ease-in-out;
+  border-color: var(--verdeclaro);
+}
+.contact {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin-top: 12%;
+  text-align: center;
+  bottom: 60px;
+}
+.contact p {
+  font-size: 18px;
+}

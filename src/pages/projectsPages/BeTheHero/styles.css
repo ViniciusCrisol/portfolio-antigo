@@ -1,0 +1,98 @@
+:root {
+  --verdeclaro: #f2bf5e;
+  --verdeescuro: #4e4376;
+  --azulescuro: #141526;
+  --azulclaro: #2e3159;
+}
+.containerHero {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 140px;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: top;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+.containerHeroTxt {
+  width: 100%;
+  margin: 12px auto;
+  margin: 12px;
+  text-align: center;
+}
+.containerHeroTxt p {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.imagensContainerHero {
+  position: relative;
+  box-shadow: 2px 4px 12px -4px rgba(0, 0, 0, 0.45);
+  width: 640px;
+  height: 360px;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.imagensContainerHeroCel {
+  margin: 12px;
+  height: 640px !important;
+  width: 360px !important;
+}
+.imagensBTH {
+  margin-top: 12px;
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  align-items: top;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.imagensBTH h1 {
+  width: 100%;
+  height: 80px;
+  margin-top: 12px;
+  text-align: center;
+}
+.imagensBTH .imagensContainerHero {
+  width: 581px;
+  height: 327px;
+  margin: 12px;
+}
+.b1 {
+  background-image: url(https://i.ibb.co/L5VmyzV/Tela-Inicial.png);
+}
+.b2 {
+  background-image: url(https://i.ibb.co/9g5z0Cb/Cadastro.png);
+}
+.b3 {
+  background-image: url(https://i.ibb.co/C5dch12/Cadastrar-Caso.png);
+}
+.b4 {
+  background-image: url(https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png);
+}
+.b5 {
+  background-image: url(https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png);
+}
+.b6 {
+  background-image: url(https://i.ibb.co/W5pyPmK/Screenshot-2020-03-26-21-10-48.png);
+}
+
+.footerHero {
+  width: 100%;
+  margin-top: 30px;
+  height: 60px;
+  text-align: center;
+}
+.footerHero p {
+  font-size: 18px;
+}
+.footerHero a {
+  font-size: 16px;
+  color: var(--azulclaro);
+}
