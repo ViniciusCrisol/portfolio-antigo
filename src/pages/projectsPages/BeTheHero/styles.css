@@ -1,102 +1,18 @@
-.containerHero {
-  position: relative;
-  width: 90%;
-  height: auto;
-  margin-left: 5%;
-  margin-top: 140px;
-  box-sizing: border-box;
-
-  display: flex;
-  justify-content: left;
-  align-items: top;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.containerHeroTxt {
-  width: auto;
-  margin: 12px auto;
-  text-align: center;
-}
-.containerHeroTxt h1 {
-  font-size: 32px;
-  color: white;
-}
-.containerHeroTxt p {
-  font-size: 18px;
-  color: #f4f4f4;
-}
-.containerHeroTxt a {
-  font-size: 16px;
-  color: #f4f4f4;
-}
-.descProj {
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 180px;
-}
-.descProj p {
-  max-width: 580px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.imagensBTH {
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-top: 64px;
-  margin-bottom: 64px;
-
-  display: inline-flex;
-  align-items: top;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.imagensBTH h1 {
-  width: 100%;
-  height: 80px;
-  margin-top: 12px;
-  text-align: center;
-}
-.imagensBTH .alingn {
-  margin-top: 12px;
-}
-.imagensContainerHero {
-  position: relative;
-  width: 640px;
-  height: 360px;
-  box-shadow: 2px 4px 12px -4px rgba(0, 0, 0, 0.45);
-
-  background: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.imagensContainerHeroCel {
-  margin: 12px;
-  height: 640px !important;
-  width: 360px !important;
-}
-.imagensBTH .imagensContainerHero {
-  width: 581px;
-  height: 327px;
-  margin: 12px;
-}
-
 .b1 {
-  background-image: url(https://i.ibb.co/L5VmyzV/Tela-Inicial.png);
+  background-image: url(https://i.ibb.co/L5VmyzV/Tela-Inicial.png) !important;
 }
 .b2 {
-  background-image: url(https://i.ibb.co/9g5z0Cb/Cadastro.png);
+  background-image: url(https://i.ibb.co/9g5z0Cb/Cadastro.png) !important;
 }
 .b3 {
-  background-image: url(https://i.ibb.co/C5dch12/Cadastrar-Caso.png);
+  background-image: url(https://i.ibb.co/C5dch12/Cadastrar-Caso.png) !important;
 }
 .b4 {
-  background-image: url(https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png);
+  background-image: url(https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png) !important;
 }
 .b5 {
-  background-image: url(https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png);
+  background-image: url(https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png) !important;
 }
 .b6 {
-  background-image: url(https://i.ibb.co/W5pyPmK/Screenshot-2020-03-26-21-10-48.png);
+  background-image: url(https://i.ibb.co/W5pyPmK/Screenshot-2020-03-26-21-10-48.png) !important;
 }

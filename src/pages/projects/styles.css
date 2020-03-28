@@ -56,10 +56,11 @@
 }
 
 .bg1 {
-  background-size: cover;
+  background-color: #dddddd;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(https://i.ibb.co/L5VmyzV/Tela-Inicial.png);
+  background-image: url(https://i.ibb.co/ZWghR4d/heroes.png);
 }
 .bg2 {
   background-size: cover;

@@ -41,7 +41,7 @@ export default class BeTheHero extends Component {
           </div>
           <div className="descProj">
             <p>
-              <strong>Geral:</strong>
+              <strong>Descrição geral:</strong>
             </p>
             <p>
               O projeto foi desenvolvido durante a semana OmniStack 11. Para sua
@@ -50,27 +50,54 @@ export default class BeTheHero extends Component {
               precisam de ajuda, possibilitando que usuários entrem em contato
               para ajudar as causas.
             </p>
+            <br />
             <p>
-              <strong>Descrição técnica:</strong>
+              <strong>Tecnologias e funcionalidades:</strong>
             </p>
             <p>
-              O aplicativo mobile possui diversas funcionalidades, destancando
-              entre elas a paginação infinita na tela de casos e o Deep Linking
-              para a abertura do WhatsApp e E-mail com uma mensagem
-              personalizada de acordo com cada caso. O banco de dados foi
-              construido em SqLite, já que fornece uma ótima estrutura para
-              trabalhar com tabelas relacionadas, facilitando o trabalho na hora
-              de contruir o beck-end.
+              O aplicativo mobile, desenvolvido com React-Native e ExpoCli
+              possui diversas funcionalidades interessantes, destancando entre
+              elas a paginação infinita na tela de casos e o Deep Linking para a
+              abertura do WhatsApp e E-mail com uma mensagem personalizada de
+              acordo com cada caso. O banco de dados foi construido em SqLite,
+              já que fornece uma ótima estrutura para trabalhar com tabelas
+              relacionadas, facilitando o trabalho na hora de contruir o
+              beck-end.
             </p>
           </div>
           <div className="imagensBTH">
-            <div className="imagensContainerHero b1"></div>
-            <div className="imagensContainerHero b2"></div>
-            <div className="imagensContainerHero b3"></div>
-            <div className="imagensContainerHero b4"></div>
+            <a target="blank" href="https://i.ibb.co/L5VmyzV/Tela-Inicial.png">
+              <div className="imagensContainerHero b1"></div>
+            </a>
+            <a target="blank" href="https://i.ibb.co/9g5z0Cb/Cadastro.png">
+              <div className="imagensContainerHero b2"></div>
+            </a>
+            <a
+              target="blank"
+              href="https://i.ibb.co/C5dch12/Cadastrar-Caso.png"
+            >
+              <div className="imagensContainerHero b3"></div>
+            </a>
+            <a
+              target="blank"
+              href="https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png"
+            >
+              <div className="imagensContainerHero b4"></div>
+            </a>
+
             <div className="imagensBTH alingn">
-              <div className="imagensContainerHero imagensContainerHeroCel  b5"></div>
-              <div className="imagensContainerHero imagensContainerHeroCel b6"></div>
+              <a
+                target="blank"
+                href="https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png"
+              >
+                <div className="imagensContainerHero imagensContainerHeroCel  b5"></div>
+              </a>
+              <a
+                target="blank"
+                href="https://i.ibb.co/W5pyPmK/Screenshot-2020-03-26-21-10-48.png"
+              >
+                <div className="imagensContainerHero imagensContainerHeroCel b6"></div>
+              </a>
             </div>
           </div>
         </div>

@@ -4,8 +4,6 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import "./styles.css";
 
-//import { Link } from "react-router-dom";
-
 export default class Projects extends Component {
   render() {
     return (
@@ -31,7 +29,7 @@ export default class Projects extends Component {
           GitHub
         </p>
         <div className="containerCards">
-          <Link to="/BeTheHero">
+          <Link to="/Bethehero">
             <div className="card">
               <div className="imgCard bg1"></div>
               <div className="cardFooter">
@@ -44,7 +42,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/Airbnb">
             <div className="card">
               <div className="imgCard bg2"></div>
               <div className="cardFooter">
