@@ -10,20 +10,26 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
+        <div class="diagonal-hero-bg">
+          <div class="stars">
+            <div class="small"></div>
+            <div class="medium"></div>
+            <div class="big"></div>
+          </div>
+        </div>
         <header>
           <div className="links">
-            <Link className="projItem" to="/">
-              Sobre
-            </Link>
+            <Link to="/">Sobre</Link>
             <Link className="active" to="/projects">
               Projetos
             </Link>
-            <Link className="projItem" to="/">
-              Contato
-            </Link>
+            <Link to="/">Contato</Link>
           </div>
         </header>
-
+        <p className="txtTopGit">
+          Todos os projetos possuem um link ao seu respectivo repositório no
+          GitHub
+        </p>
         <div className="containerCards">
           <Link to="/BeTheHero">
             <div className="card">

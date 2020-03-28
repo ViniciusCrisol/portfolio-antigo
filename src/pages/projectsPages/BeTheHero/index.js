@@ -7,6 +7,13 @@ export default class BeTheHero extends Component {
   render() {
     return (
       <div>
+        <div class="diagonal-hero-bg">
+          <div class="stars">
+            <div class="small"></div>
+            <div class="medium"></div>
+            <div class="big"></div>
+          </div>
+        </div>
         <header>
           <div className="links">
             <Link className="projItem" to="/">
@@ -20,19 +27,10 @@ export default class BeTheHero extends Component {
             </Link>
           </div>
         </header>
+
         <div className="containerHero">
           <div className="containerHeroTxt">
             <h1>Be The Hero</h1>
-            <p>
-              O projeto Be The Hero foi desenvolvido durante a semana OmniStack
-              11. Para sua criação foram utilizados React, React-Native e
-              NodeJs, o banco de dados foi construido com SqlLite. A aplicação
-              consiste em uma plataforma que cadastra ONG's e lista casos que
-              precisam de ajuda, possibilitando que usuários entrem em contato
-              para ajudar as causas.
-            </p>
-          </div>
-          <div className="footerHero">
             <p>Acesse o repositório do projeto:</p>
             <a
               target="blank"
@@ -40,6 +38,30 @@ export default class BeTheHero extends Component {
             >
               https://github.com/ViniciusCrisol/BeTheHero
             </a>
+          </div>
+          <div className="descProj">
+            <p>
+              <strong>Geral:</strong>
+            </p>
+            <p>
+              O projeto foi desenvolvido durante a semana OmniStack 11. Para sua
+              criação foram utilizados React, React-Native e NodeJs. A aplicação
+              consiste em uma plataforma que cadastra ONG's e lista casos que
+              precisam de ajuda, possibilitando que usuários entrem em contato
+              para ajudar as causas.
+            </p>
+            <p>
+              <strong>Descrição técnica:</strong>
+            </p>
+            <p>
+              O aplicativo mobile possui diversas funcionalidades, destancando
+              entre elas a paginação infinita na tela de casos e o Deep Linking
+              para a abertura do WhatsApp e E-mail com uma mensagem
+              personalizada de acordo com cada caso. O banco de dados foi
+              construido em SqLite, já que fornece uma ótima estrutura para
+              trabalhar com tabelas relacionadas, facilitando o trabalho na hora
+              de contruir o beck-end.
+            </p>
           </div>
           <div className="imagensBTH">
             <div className="imagensContainerHero b1"></div>
@@ -52,7 +74,6 @@ export default class BeTheHero extends Component {
             </div>
           </div>
         </div>
-        <div className="footerHero"></div>
       </div>
     );
   }

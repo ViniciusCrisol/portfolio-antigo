@@ -10,7 +10,7 @@ body {
   font-family: "Baloo 2", cursive;
   font-weight: normal;
   background-color: #f1f1f1;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
 }
 header {
   top: 16px;
@@ -38,7 +38,4 @@ header {
   font-weight: bold;
   color: #f2bf5e !important;
   border-bottom: 2px solid #f2bf5e;
-}
-.projItem {
-  color: #2e3159 !important;
 }
