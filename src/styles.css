@@ -82,7 +82,17 @@ header {
   margin: 0 auto;
   text-align: center;
 }
-
+.descProj h2 {
+  font-size: 22px;
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 24px;
+  text-align: center;
+  color: #2e3159;
+}
+.descProj strong {
+  color: #2e3159;
+}
 .imagensBTH {
   position: relative;
   width: 100%;
@@ -104,20 +114,25 @@ header {
 .imagensBTH .alingn {
   margin-top: 12px;
 }
+.imagensBTH .alingn.cel {
+  margin-top: -36px !important;
+}
+
 .imagensContainerHero {
   position: relative;
-  width: 640px;
-  height: 360px;
+  width: 90%;
+  max-width: 320px;
+  height: 160px !important;
   box-shadow: 2px 4px 12px -4px rgba(0, 0, 0, 0.45);
 
   background: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 .imagensContainerHeroCel {
   margin: 12px;
-  height: 640px !important;
-  width: 360px !important;
+  height: 320px !important;
+  width: 160px !important;
 }
 .imagensBTH .imagensContainerHero {
   width: 581px;

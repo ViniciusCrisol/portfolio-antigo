@@ -64,6 +64,10 @@ export default class BeTheHero extends Component {
               relacionadas, facilitando o trabalho na hora de contruir o
               beck-end.
             </p>
+            <h2>
+              Clique nas imagens para abri-las em outra guia e confir o
+              resultado final do projeto
+            </h2>
           </div>
           <div className="imagensBTH">
             <a target="blank" href="https://i.ibb.co/L5VmyzV/Tela-Inicial.png">
@@ -72,20 +76,21 @@ export default class BeTheHero extends Component {
             <a target="blank" href="https://i.ibb.co/9g5z0Cb/Cadastro.png">
               <div className="imagensContainerHero b2"></div>
             </a>
-            <a
-              target="blank"
-              href="https://i.ibb.co/C5dch12/Cadastrar-Caso.png"
-            >
-              <div className="imagensContainerHero b3"></div>
-            </a>
-            <a
-              target="blank"
-              href="https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png"
-            >
-              <div className="imagensContainerHero b4"></div>
-            </a>
-
             <div className="imagensBTH alingn">
+              <a
+                target="blank"
+                href="https://i.ibb.co/C5dch12/Cadastrar-Caso.png"
+              >
+                <div className="imagensContainerHero b3"></div>
+              </a>
+              <a
+                target="blank"
+                href="https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png"
+              >
+                <div className="imagensContainerHero b4"></div>
+              </a>
+            </div>
+            <div className="imagensBTH alingn cel">
               <a
                 target="blank"
                 href="https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png"
