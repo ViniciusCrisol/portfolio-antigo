@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+import { AiOutlineGithub } from "react-icons/ai";
+
 import "../../styles.scss";
 import "./styles.css";
 
@@ -32,12 +34,18 @@ export default class Main extends Component {
           <h2>Sobre:</h2>
           <p>
             Desenvolvedor Francano, amante de javaScript. Tenho disversos
-            projetos em meu portifólio, para dar uma olhada acesse "Projetos" no
-            menu superior ou clique no link abaixo para ser redicionado.
+            projetos em meu portifólio, para saber mais acesse "Projetos" no
+            menu superior ou clique no link abaixo para ser redirecionado.
           </p>
           <br />
           <Link to="/projects">PROJETOS</Link>
         </div>
+        <footer>
+          <a target="_blank" href="https://github.com/ViniciusCrisol">
+            <AiOutlineGithub />
+            github.com/ViniciusCrisol
+          </a>
+        </footer>
       </div>
     );
   }

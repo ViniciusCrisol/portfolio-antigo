@@ -48,3 +48,11 @@
   border-color: #e4b359;
   color: #6064a8;
 }
+footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer a {
+  color: #6064a8;
+  font-size: 18px;
+}
