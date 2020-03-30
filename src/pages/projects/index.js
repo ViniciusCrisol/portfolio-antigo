@@ -43,15 +43,28 @@ export default class Projects extends Component {
             </div>
           </Link>
 
-          <Link to="/Airbnb">
+          <Link to="/RsClone">
             <div className="card">
-              <div className="imgCard bg2"></div>
+              <div className="imgCard bg6"></div>
               <div className="cardFooter">
-                <h1>Airbnb</h1>
+                <h1>SkyLab</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#17B7E8" />
+                </div>
+                <p>Clone do site SkyLab da RocketSeat</p>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/Academia">
+            <div className="card">
+              <div className="imgCard bg5"></div>
+              <div className="cardFooter">
+                <h1>Controle Academia</h1>
                 <div className="cardIcons">
                   <AiOutlineHtml5 size={28} color="#FFB843" />
                 </div>
-                <p>Clone página inicial do Airbnb</p>
+                <p>Projeto desenvolvido durante o curso LaunchBase</p>
               </div>
             </div>
           </Link>
@@ -66,6 +79,35 @@ export default class Projects extends Component {
                   <FaNodeJs size={28} color="#689F63" />
                 </div>
                 <p>Projeto desenvolvido durante a semana OmniStack 09</p>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/ProductHunt">
+            <div className="card">
+              <div className="imgCard bg4"></div>
+              <div className="cardFooter">
+                <h1>ProductHunt Clone</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#17B7E8" />
+                  <FaNodeJs size={28} color="#689F63" />
+                </div>
+                <p>
+                  Clone do ProductHunt, idealizado no curso básico RocketSeat.
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/Airbnb">
+            <div className="card">
+              <div className="imgCard bg2"></div>
+              <div className="cardFooter">
+                <h1>Airbnb</h1>
+                <div className="cardIcons">
+                  <AiOutlineHtml5 size={28} color="#FFB843" />
+                </div>
+                <p>Clone página inicial do Airbnb</p>
               </div>
             </div>
           </Link>

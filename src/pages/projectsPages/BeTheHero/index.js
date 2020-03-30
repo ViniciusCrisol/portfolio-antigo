@@ -28,7 +28,7 @@ export default class BeTheHero extends Component {
               target="_blank"
               href="https://github.com/ViniciusCrisol/BeTheHero"
             >
-              https://github.com/ViniciusCrisol/BeTheHero
+              github.com/ViniciusCrisol/BeTheHero
             </a>
           </div>
         </header>

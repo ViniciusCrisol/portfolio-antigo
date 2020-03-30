@@ -21,14 +21,14 @@ export default class BeTheHero extends Component {
             <Link to="/contact">Contato</Link>
           </div>
           <div className="containerHeroTxt">
-            <h1>Clone página inicial do Airbnb</h1>
+            <h1>Clone do site SkyLab</h1>
             <p>Acesse o repositório do projeto:</p>
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/ViniciusCrisol/CloneAirbnb"
+              href="https://github.com/ViniciusCrisol/Clone-SkyLab"
             >
-              github.com/ViniciusCrisol/CloneAirbnb
+              github.com/ViniciusCrisol/Clone-SkyLab
             </a>
           </div>
         </header>
@@ -39,26 +39,22 @@ export default class BeTheHero extends Component {
               <strong>Descrição geral:</strong>
             </p>
             <p>
-              A página foi desenvolvida em HTML/CSS com o objetivo de estudar
-              interfaces. O site não possui responsividade, já que o intuito do
-              estudo era compreender melhor a interação de elementos na tela. O
-              resultado final foi muito satisfatório, levando em conta que o
-              objetivo de resporduzir a interface do site original foi concluído
-              com êxito.
+              Clone do site SkyLab da RocketSeat. Desenvolvido em React, com o
+              objetivo de estudar desenvolvimento de sites responsivos.
             </p>
           </div>
           <div className="imagensBTH ">
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/VTX5vJL/Airbnb-Thumb.jpg"
+              href="https://i.ibb.co/nMtyCfg/Index.png"
             >
               <div className="imagensContainerHero bB1"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/N3yRx5F/2.png"
+              href="https://i.ibb.co/M7z7Zm5/Cadastro.png"
             >
               <div className="imagensContainerHero bB2"></div>
             </a>
@@ -66,16 +62,9 @@ export default class BeTheHero extends Component {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/DK8MNDs/3.jpg"
+              href="https://i.ibb.co/4YvnwGx/Login.png"
             >
               <div className="imagensContainerHero bB3"></div>
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://i.ibb.co/7QX76Z6/Screenshot-2020-03-25-Airbnb-Clone.png"
-            >
-              <div className="imagensContainerHero bB4"></div>
             </a>
           </div>
         </div>

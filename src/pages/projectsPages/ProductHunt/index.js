@@ -26,9 +26,9 @@ export default class BeTheHero extends Component {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/ViniciusCrisol/CloneAirbnb"
+              href="https://github.com/ViniciusCrisol/ProductHuntClone"
             >
-              github.com/ViniciusCrisol/CloneAirbnb
+              github.com/ViniciusCrisol/ProductHuntClone
             </a>
           </div>
         </header>
@@ -39,43 +39,43 @@ export default class BeTheHero extends Component {
               <strong>Descrição geral:</strong>
             </p>
             <p>
-              A página foi desenvolvida em HTML/CSS com o objetivo de estudar
-              interfaces. O site não possui responsividade, já que o intuito do
-              estudo era compreender melhor a interação de elementos na tela. O
-              resultado final foi muito satisfatório, levando em conta que o
-              objetivo de resporduzir a interface do site original foi concluído
-              com êxito.
+              Clone do site ProductHunt, idealizado no curso básico RocketSeat.
+              Desenvolvido com Node e React, a aplicação possui um sistema em
+              que cadastra produtos no banco de dados e automaticamente exibe os
+              dados no front-end.
+            </p>
+            <br />
+            <p>
+              <strong>Tecnologias e funcionalidades:</strong>
+            </p>
+            <p>
+              A construção do banco de dados foi feita com o MongoDB, já que a
+              aplicação não necessita de tabelas relacionadas e exige uma
+              performance alta do back-end.
             </p>
           </div>
           <div className="imagensBTH ">
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/VTX5vJL/Airbnb-Thumb.jpg"
+              href="https://i.ibb.co/YB2Zbyq/Produtos.png"
             >
-              <div className="imagensContainerHero bB1"></div>
+              <div className="imagensContainerHero bC1"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/N3yRx5F/2.png"
+              href="https://i.ibb.co/W3BSRxk/Produto.png"
             >
-              <div className="imagensContainerHero bB2"></div>
+              <div className="imagensContainerHero bC2"></div>
             </a>
 
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/DK8MNDs/3.jpg"
+              href="https://i.ibb.co/2KfDmWC/Inserir-Dados.png"
             >
-              <div className="imagensContainerHero bB3"></div>
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://i.ibb.co/7QX76Z6/Screenshot-2020-03-25-Airbnb-Clone.png"
-            >
-              <div className="imagensContainerHero bB4"></div>
+              <div className="imagensContainerHero bC3"></div>
             </a>
           </div>
         </div>

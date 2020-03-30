@@ -8,6 +8,9 @@ import projects from "./pages/projects";
 import BeTheHero from "./pages/projectsPages/BeTheHero";
 import AirCnC from "./pages/projectsPages/AirCnC";
 import Airbnb from "./pages/projectsPages/Airbnb";
+import ProductHunt from "./pages/projectsPages/ProductHunt";
+import Academia from "./pages/projectsPages/Academia";
+import RsClone from "./pages/projectsPages/RsClone";
 
 const Routes = () => (
   <BrowserRouter>
@@ -18,6 +21,9 @@ const Routes = () => (
       <Route exact path="/Airbnb" component={Airbnb} />
       <Route exact path="/projects" component={projects} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/ProductHunt" component={ProductHunt} />
+      <Route exact path="/Academia" component={Academia} />
+      <Route exact path="/RsClone" component={RsClone} />
     </Switch>
   </BrowserRouter>
 );

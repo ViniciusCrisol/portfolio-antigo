@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 36px;
+  margin-top: 64px;
 }
 .containerCards a {
   text-decoration: none;
@@ -70,4 +70,22 @@
   background-repeat: no-repeat;
   background-position: left;
   background-image: url(https://i.ibb.co/bs4VMHm/aircnc.png);
+}
+.bg4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.ibb.co/GRPrvfH/product-hunt-kitten.png);
+}
+.bg5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.ibb.co/fSSy9ys/Screenshot-2020-03-30-Gyn-Maneger-1.png);
+}
+.bg6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.ibb.co/4YvnwGx/Login.png);
 }

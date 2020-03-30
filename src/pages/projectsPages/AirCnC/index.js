@@ -28,7 +28,7 @@ export default class BeTheHero extends Component {
               target="blank"
               href="https://github.com/ViniciusCrisol/AirCnC"
             >
-              https://github.com/ViniciusCrisol/AirCnC
+              github.com/ViniciusCrisol/AirCnC
             </a>
           </div>
         </header>
