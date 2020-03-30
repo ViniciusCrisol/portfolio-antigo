@@ -97,7 +97,7 @@ header {
   margin-bottom: 64px;
   margin-top: 24px;
 
-  display: inline-flex;
+  display: flex;
   align-items: top;
   justify-content: center;
   flex-wrap: wrap;
@@ -107,22 +107,17 @@ header {
 }
 .imagensContainerHero {
   position: relative;
-  width: 90%;
-  max-width: 320px;
+  width: 320px;
+  margin: 6px;
   height: 160px !important;
-  box-shadow: 2px 4px 12px -4px rgba(0, 0, 0, 0.45);
+  box-shadow: 2px 4px 8px -3px rgba(0, 0, 0, 0.45);
 
   background: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 .imagensContainerHeroCel {
   margin: 12px;
   height: 280px !important;
   width: 158px !important;
-}
-.imagensBTH .imagensContainerHero {
-  width: 581px;
-  height: 327px;
-  margin: 12px;
 }

@@ -21,7 +21,7 @@ export default class Projects extends Component {
             <Link className="active" to="/projects">
               Projetos
             </Link>
-            <Link to="/">Contato</Link>
+            <Link to="/contact">Contato</Link>
           </div>
         </header>
         <p className="txtTopGit">
@@ -42,6 +42,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </Link>
+
           <Link to="/Airbnb">
             <div className="card">
               <div className="imgCard bg2"></div>
@@ -51,6 +52,20 @@ export default class Projects extends Component {
                   <AiOutlineHtml5 size={28} color="#FFB843" />
                 </div>
                 <p>Clone página inicial do Airbnb</p>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/AirCnC">
+            <div className="card">
+              <div className="imgCard bg3"></div>
+              <div className="cardFooter">
+                <h1>AirCnC</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#17B7E8" />
+                  <FaNodeJs size={28} color="#689F63" />
+                </div>
+                <p>Projeto desenvolvido durante a semana OmniStack 09</p>
               </div>
             </div>
           </Link>

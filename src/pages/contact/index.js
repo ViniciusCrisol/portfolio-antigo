@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import { AiOutlineGithub } from "react-icons/ai";
-
-import "../../styles.scss";
 import "./styles.css";
 
 export default class Main extends Component {
@@ -19,28 +17,25 @@ export default class Main extends Component {
         </div>
         <header>
           <div className="links">
-            <Link className="active" to="/">
-              Sobre
-            </Link>
+            <Link to="/">Sobre</Link>
             <Link to="/projects">Projetos</Link>
-            <Link to="/contact">Contato</Link>
+            <Link className="active" to="/contact">
+              Contato
+            </Link>
           </div>
         </header>
         <div className="txtName">
           <h1>Vinícius Poloni Crisol</h1>
-          <h3>Programador Full Stack</h3>
+          <h3>Contato:</h3>
         </div>
         <div className="infoBox">
-          <h2>Sobre:</h2>
-          <p>
-            Desenvolvedor Francano, amante de javaScript. Tenho disversos
-            projetos em meu portifólio, para saber mais acesse "Projetos" no
-            menu superior ou clique no link abaixo para ser redirecionado.
-          </p>
           <br />
-          <Link to="/projects">PROJETOS</Link>
-        </div>
-        <footer>
+          <br />
+
+          <p>E-mail: vinicius.crisol@etec.sp.gov.br</p>
+          <br />
+          <p>WhatsApp: (16) 999104-3028</p>
+          <br />
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -49,17 +44,7 @@ export default class Main extends Component {
             <AiOutlineGithub />
             github.com/ViniciusCrisol
           </a>
-          <br />
-          <br />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/ViniciusCrisol"
-          >
-            <AiOutlineGithub />
-            Reposítório desse site
-          </a>
-        </footer>
+        </div>
       </div>
     );
   }

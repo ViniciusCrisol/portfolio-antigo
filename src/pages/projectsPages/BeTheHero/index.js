@@ -16,21 +16,16 @@ export default class BeTheHero extends Component {
         </div>
         <header>
           <div className="links">
-            <Link className="projItem" to="/">
-              Sobre
-            </Link>
-            <Link className="projItem" to="/projects">
-              Projetos
-            </Link>
-            <Link className="projItem" to="/">
-              Contato
-            </Link>
+            <Link to="/">Sobre</Link>
+            <Link to="/projects">Projetos</Link>
+            <Link to="/contact">Contato</Link>
           </div>
           <div className="containerHeroTxt">
             <h1>Be The Hero</h1>
             <p>Acesse o repositório do projeto:</p>
             <a
-              target="blank"
+              rel="noopener noreferrer"
+              target="_blank"
               href="https://github.com/ViniciusCrisol/BeTheHero"
             >
               https://github.com/ViniciusCrisol/BeTheHero
@@ -65,20 +60,30 @@ export default class BeTheHero extends Component {
             </p>
           </div>
           <div className="imagensBTH ">
-            <a target="_blank" href="https://i.ibb.co/L5VmyzV/Tela-Inicial.png">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://i.ibb.co/L5VmyzV/Tela-Inicial.png"
+            >
               <div className="imagensContainerHero b1"></div>
             </a>
-            <a target="_blank" href="https://i.ibb.co/9g5z0Cb/Cadastro.png">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://i.ibb.co/9g5z0Cb/Cadastro.png"
+            >
               <div className="imagensContainerHero b2"></div>
             </a>
 
             <a
+              rel="noopener noreferrer"
               target="_blank"
               href="https://i.ibb.co/C5dch12/Cadastrar-Caso.png"
             >
               <div className="imagensContainerHero b3"></div>
             </a>
             <a
+              rel="noopener noreferrer"
               target="_blank"
               href="https://i.ibb.co/7VKLkKq/Caso-Cadastrado.png"
             >
@@ -87,12 +92,14 @@ export default class BeTheHero extends Component {
 
             <div className="imagensBTH alingn cel">
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://i.ibb.co/Jm9TZkc/Screenshot-2020-03-26-21-10-34.png"
               >
                 <div className="imagensContainerHero imagensContainerHeroCel  b5"></div>
               </a>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://i.ibb.co/W5pyPmK/Screenshot-2020-03-26-21-10-48.png"
               >
