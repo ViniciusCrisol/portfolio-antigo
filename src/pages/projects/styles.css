@@ -54,38 +54,44 @@
 }
 
 .bg1 {
-  background-size: contain;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(https://i.ibb.co/ZWghR4d/heroes.png);
+  background-color: lightskyblue;
 }
 .bg2 {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
-  background-image: url(https://i.ibb.co/VTX5vJL/Airbnb-Thumb.jpg);
+  background-position: center;
+  background-image: url(https://i.ibb.co/mh5LrWg/airbnb.jpg);
+  background-color: rgb(255, 122, 144);
 }
 .bg3 {
-  background-size: contain;
+  background-size: 60%;
   background-repeat: no-repeat;
-  background-position: left;
-  background-image: url(https://i.ibb.co/bs4VMHm/aircnc.png);
+  background-position: center;
+  background-image: url(https://i.ibb.co/fXk0sxT/0.png);
+  background-color: rgb(251, 159, 174);
 }
 .bg4 {
-  background-size: cover;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(https://i.ibb.co/GRPrvfH/product-hunt-kitten.png);
+  background-image: url(https://i.ibb.co/s9zVRKJ/product-hunt.png);
+  background-color: lightsalmon;
 }
 .bg5 {
-  background-size: cover;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(https://i.ibb.co/fSSy9ys/Screenshot-2020-03-30-Gyn-Maneger-1.png);
+  background-image: url(https://i.ibb.co/YWfjyVd/54-542135-bodybuilding-and-dumbbells-vector-image-illustration-dumbbell-clipart.png);
+  background-color: lightskyblue;
 }
 .bg6 {
-  background-size: cover;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(https://i.ibb.co/4YvnwGx/Login.png);
+  background-image: url(https://i.ibb.co/7NZgGhN/astronauta.png);
+  background-color: rgb(204, 135, 250);
 }
