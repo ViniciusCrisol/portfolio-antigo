@@ -53,14 +53,14 @@ export default class BeTheHero extends Component {
               target="_blank"
               href="https://i.ibb.co/VTX5vJL/Airbnb-Thumb.jpg"
             >
-              <div className="imagensContainerHero bB1"></div>
+              <div className="imagensContainerHero bE1"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://i.ibb.co/N3yRx5F/2.png"
             >
-              <div className="imagensContainerHero bB2"></div>
+              <div className="imagensContainerHero bE2"></div>
             </a>
 
             <a
@@ -68,14 +68,14 @@ export default class BeTheHero extends Component {
               target="_blank"
               href="https://i.ibb.co/DK8MNDs/3.jpg"
             >
-              <div className="imagensContainerHero bB3"></div>
+              <div className="imagensContainerHero bE3"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://i.ibb.co/7QX76Z6/Screenshot-2020-03-25-Airbnb-Clone.png"
             >
-              <div className="imagensContainerHero bB4"></div>
+              <div className="imagensContainerHero bE4"></div>
             </a>
           </div>
         </div>

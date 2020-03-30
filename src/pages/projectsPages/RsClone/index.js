@@ -49,14 +49,14 @@ export default class BeTheHero extends Component {
               target="_blank"
               href="https://i.ibb.co/nMtyCfg/Index.png"
             >
-              <div className="imagensContainerHero bB1"></div>
+              <div className="imagensContainerHero bF1"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://i.ibb.co/M7z7Zm5/Cadastro.png"
             >
-              <div className="imagensContainerHero bB2"></div>
+              <div className="imagensContainerHero bF2"></div>
             </a>
 
             <a
@@ -64,7 +64,7 @@ export default class BeTheHero extends Component {
               target="_blank"
               href="https://i.ibb.co/4YvnwGx/Login.png"
             >
-              <div className="imagensContainerHero bB3"></div>
+              <div className="imagensContainerHero bF3"></div>
             </a>
           </div>
         </div>
