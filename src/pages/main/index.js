@@ -33,7 +33,7 @@ export default class Main extends Component {
         <div className="infoBox">
           <h2>Sobre:</h2>
           <p>
-            Desenvolvedor Francano, amante de javaScript. Tenho disversos
+            Desenvolvedor Francano, amante de javaScript. Tenho diversos
             projetos em meu portifólio, para saber mais acesse "Projetos" no
             menu superior ou clique no link abaixo para ser redirecionado.
           </p>
