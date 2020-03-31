@@ -40,7 +40,7 @@ export default class BeTheHero extends Component {
             </p>
             <p>
               Clone do site SkyLab da RocketSeat. Desenvolvido em React, com o
-              objetivo de estudar desenvolvimento de sites responsivos.
+              objetivo de estudar a criação de sites responsivos.
             </p>
           </div>
           <div className="imagensBTH ">
