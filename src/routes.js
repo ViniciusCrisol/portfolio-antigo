@@ -11,6 +11,7 @@ import Airbnb from "./pages/projectsPages/Airbnb";
 import ProductHunt from "./pages/projectsPages/ProductHunt";
 import Academia from "./pages/projectsPages/Academia";
 import RsClone from "./pages/projectsPages/RsClone";
+import nbClone from "./pages/projectsPages/nbClone";
 
 const Routes = () => (
   <BrowserRouter>
@@ -24,6 +25,7 @@ const Routes = () => (
       <Route exact path="/ProductHunt" component={ProductHunt} />
       <Route exact path="/Academia" component={Academia} />
       <Route exact path="/RsClone" component={RsClone} />
+      <Route exact path="/nbClone" component={nbClone} />
     </Switch>
   </BrowserRouter>
 );

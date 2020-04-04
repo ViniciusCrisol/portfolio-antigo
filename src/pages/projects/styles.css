@@ -95,3 +95,10 @@
   background-image: url(https://i.ibb.co/7NZgGhN/astronauta.png);
   background-color: rgb(204, 135, 250);
 }
+.bg7 {
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.ibb.co/F32kFrF/4257275.png);
+  background-color: rgb(230, 166, 221);
+}

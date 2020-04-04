@@ -83,6 +83,19 @@ export default class Projects extends Component {
             </div>
           </Link>
 
+          <Link to="/nbClone">
+            <div className="card">
+              <div className="imgCard bg7"></div>
+              <div className="cardFooter">
+                <h1>Nubank</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#7259C1" />
+                </div>
+                <p>Clone tela inicial do aplicativo Nubank</p>
+              </div>
+            </div>
+          </Link>
+
           <Link to="/ProductHunt">
             <div className="card">
               <div className="imgCard bg4"></div>
