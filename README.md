@@ -1,2 +1,2 @@
-# Reposiório do meu portifólio
-Repositório utilizado para hospedar meu portifólio. Feito em React, 100% responsivo.
+# Reposiório do meu portfólio
+Repositório utilizado para hospedar meu portfólio. Feito em React, 100% responsivo.
