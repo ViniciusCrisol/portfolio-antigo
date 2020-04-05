@@ -70,6 +70,19 @@ export default class Projects extends Component {
             </div>
           </Link>
 
+          <Link to="/repositorios">
+            <div className="card">
+              <div className="imgCard bg9"></div>
+              <div className="cardFooter">
+                <h1>Listar Respositórios</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#17B7E8" />
+                </div>
+                <p>Página que lista repositórios do github.</p>
+              </div>
+            </div>
+          </Link>
+
           <Link to="/Academia">
             <div className="card">
               <div className="imgCard bg5"></div>

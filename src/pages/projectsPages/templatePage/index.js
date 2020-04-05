@@ -46,7 +46,9 @@ export default class BeTheHero extends Component {
             <p>
               <strong>Tecnologias e funcionalidades:</strong>
             </p>
-            <p>Aplicação idealizada em React-Native e Expo-cli.</p>
+            <p>
+              Aplicação idealizada em React-Native, com auxílio do Expo-cli.
+            </p>
           </div>
           <div className="imagensBTH ">
             <div className="imagensBTH alingn cel">

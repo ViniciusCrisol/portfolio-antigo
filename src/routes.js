@@ -14,6 +14,7 @@ import Academia from "./pages/projectsPages/Academia";
 import RsClone from "./pages/projectsPages/RsClone";
 import nbClone from "./pages/projectsPages/nbClone";
 import templatePage from "./pages/projectsPages/templatePage";
+import repositorios from "./pages/projectsPages/repositorios";
 
 const Routes = () => (
   <BrowserRouter>
@@ -30,6 +31,7 @@ const Routes = () => (
       <Route exact path="/RsClone" component={RsClone} />
       <Route exact path="/nbClone" component={nbClone} />
       <Route exact path="/templatePage" component={templatePage} />
+      <Route exact path="/repositorios" component={repositorios} />
     </Switch>
   </BrowserRouter>
 );

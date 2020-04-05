@@ -26,9 +26,9 @@ export default class BeTheHero extends Component {
             <a
               rel="noopener noreferrer"
               target="blank"
-              href="https://github.com/ViniciusCrisol/Clone-Interface-Nubank-Mobile"
+              href="https://github.com/ViniciusCrisol/CloneInterfaceNubankMobile"
             >
-              github.com/ViniciusCrisol/Clone-Interface-Nubank-Mobile
+              github.com/ViniciusCrisol/CloneInterfaceNubankMobile
             </a>
           </div>
         </header>

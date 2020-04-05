@@ -26,9 +26,9 @@ export default class BeTheHero extends Component {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/ViniciusCrisol/Controle-Academia"
+              href="https://github.com/ViniciusCrisol/ControleAcademia"
             >
-              github.com/ViniciusCrisol/Controle-Academia
+              github.com/ViniciusCrisol/ControleAcademia
             </a>
           </div>
         </header>
@@ -48,7 +48,7 @@ export default class BeTheHero extends Component {
               <strong>Tecnologias e funcionalidades:</strong>
             </p>
             <p>
-              Para seu desenvolto foi utilizado um banco de dados local,
+              Para seu desenvolvimento foi utilizado um banco de dados local,
               salvando os arquivos em .JSON na raiz do projeto. O sistema de
               componets foi feito utilizando o Nunjucks, que sem dúvidas é
               amelhor opção para isso no desenvolvimento HTML.

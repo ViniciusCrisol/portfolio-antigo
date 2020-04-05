@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./styles.css";
 
-export default class BeTheHero extends Component {
+export default class repositorios extends Component {
   render() {
     return (
       <div>
@@ -21,14 +21,14 @@ export default class BeTheHero extends Component {
             <Link to="/contact">Contato</Link>
           </div>
           <div className="containerHeroTxt">
-            <h1>Clone do site SkyLab</h1>
+            <h1>Página que lista repositórios do GithHub</h1>
             <p>Acesse o repositório do projeto:</p>
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/ViniciusCrisol/Clone-SkyLab"
+              href="https://github.com/ViniciusCrisol/ListarRepositorios"
             >
-              github.com/ViniciusCrisol/Clone-SkyLab
+              github.com/ViniciusCrisol/ListarRepositorios
             </a>
           </div>
         </header>
@@ -39,33 +39,33 @@ export default class BeTheHero extends Component {
               <strong>Descrição geral:</strong>
             </p>
             <p>
-              Clone do site SkyLab da RocketSeat. Desenvolvido em React, com o
-              objetivo de estudar a criação de sites responsivos com o
-              framework.
+              A aplicação busca repositórios do github conforme o nome inserido
+              e lista as buscas. Possibilitando que o usuário acesse o
+              repositório e tenha mais informações
+            </p>
+            <br />
+            <p>
+              <strong>Tecnologias e funcionalidades:</strong>
+            </p>
+            <p>
+              O site foi desenvolvido em react e conta com a API do github para
+              pesquisa de repositórios.
             </p>
           </div>
           <div className="imagensBTH ">
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/nMtyCfg/Index.png"
+              href="https://i.ibb.co/VTX5vJL/Airbnb-Thumb.jpg"
             >
-              <div className="imagensContainerHero bF1"></div>
+              <div className="imagensContainerHero bI1"></div>
             </a>
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://i.ibb.co/M7z7Zm5/Cadastro.png"
+              href="https://i.ibb.co/N3yRx5F/2.png"
             >
-              <div className="imagensContainerHero bF2"></div>
-            </a>
-
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://i.ibb.co/4YvnwGx/Login.png"
-            >
-              <div className="imagensContainerHero bF3"></div>
+              <div className="imagensContainerHero bI2"></div>
             </a>
           </div>
         </div>
