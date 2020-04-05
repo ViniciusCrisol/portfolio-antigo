@@ -100,5 +100,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(https://i.ibb.co/F32kFrF/4257275.png);
-  background-color: rgb(230, 166, 221);
+  background-color: #efd4ff;
+}
+.bg8 {
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://i.ibb.co/Srg0DCk/splash.png);
+  background-color: lightgray;
 }

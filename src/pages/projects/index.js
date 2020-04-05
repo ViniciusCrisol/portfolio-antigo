@@ -112,6 +112,19 @@ export default class Projects extends Component {
             </div>
           </Link>
 
+          <Link to="/templatePage">
+            <div className="card">
+              <div className="imgCard bg8"></div>
+              <div className="cardFooter">
+                <h1>Template App</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#7259C1" />
+                </div>
+                <p>Temaplate de aplicativo</p>
+              </div>
+            </div>
+          </Link>
+
           <Link to="/Airbnb">
             <div className="card">
               <div className="imgCard bg2"></div>
