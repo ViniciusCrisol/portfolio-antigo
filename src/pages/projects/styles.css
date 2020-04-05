@@ -54,58 +54,50 @@
 }
 
 .bg1 {
-  background-size: 60%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/ZWghR4d/heroes.png);
-  background-color: lightskyblue;
+  background-position: left;
+  background-image: url(https://i.ibb.co/MBTk76L/ThubBTH.png);
 }
 .bg2 {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/mh5LrWg/airbnb.jpg);
-  background-color: rgb(255, 122, 144);
+  background-position: left;
+  background-image: url(https://i.ibb.co/sjQgtV1/Thumb-AIRBNB.png);
 }
 .bg3 {
-  background-size: 60%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/fXk0sxT/0.png);
-  background-color: rgb(251, 159, 174);
+  background-position: left;
+  background-image: url(https://i.ibb.co/X4bpFwx/Thumb-AIRCNC.png);
 }
 .bg4 {
-  background-size: 70%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/s9zVRKJ/product-hunt.png);
-  background-color: lightsalmon;
+  background-position: left;
+  background-image: url(https://i.ibb.co/TYc26Pj/ThumbPH.png);
 }
 .bg5 {
-  background-size: 60%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/YWfjyVd/54-542135-bodybuilding-and-dumbbells-vector-image-illustration-dumbbell-clipart.png);
-  background-color: lightskyblue;
+  background-position: left;
+  background-image: url(https://i.ibb.co/Qn32FXp/Thumb-ACAD.png);
 }
 .bg6 {
-  background-size: 70%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/7NZgGhN/astronauta.png);
-  background-color: rgb(204, 135, 250);
+  background-position: left;
+  background-image: url(https://i.ibb.co/H7404K3/ThumSKLB.png);
 }
 .bg7 {
-  background-size: 45%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/F32kFrF/4257275.png);
-  background-color: #efd4ff;
+  background-position: left;
+  background-image: url(https://i.ibb.co/VVGkn7n/Thumb-NUBANK.png);
 }
 .bg8 {
-  background-size: 85%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(https://i.ibb.co/Srg0DCk/splash.png);
-  background-color: lightgray;
+  background-position: left;
+  background-image: url(https://i.ibb.co/wsh1H6H/Thumb-TEMPLATE.png);
 }

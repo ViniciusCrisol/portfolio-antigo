@@ -56,19 +56,6 @@ export default class Projects extends Component {
             </div>
           </Link>
 
-          <Link to="/Academia">
-            <div className="card">
-              <div className="imgCard bg5"></div>
-              <div className="cardFooter">
-                <h1>Controle Academia</h1>
-                <div className="cardIcons">
-                  <AiOutlineHtml5 size={28} color="#FFB843" />
-                </div>
-                <p>Projeto desenvolvido durante o curso LaunchBase.</p>
-              </div>
-            </div>
-          </Link>
-
           <Link to="/AirCnC">
             <div className="card">
               <div className="imgCard bg3"></div>
@@ -83,15 +70,15 @@ export default class Projects extends Component {
             </div>
           </Link>
 
-          <Link to="/nbClone">
+          <Link to="/Academia">
             <div className="card">
-              <div className="imgCard bg7"></div>
+              <div className="imgCard bg5"></div>
               <div className="cardFooter">
-                <h1>Nubank</h1>
+                <h1>Controle Academia</h1>
                 <div className="cardIcons">
-                  <FaReact size={28} color="#7259C1" />
+                  <AiOutlineHtml5 size={28} color="#FFB843" />
                 </div>
-                <p>Clone tela inicial do aplicativo Nubank.</p>
+                <p>Projeto desenvolvido durante o curso LaunchBase.</p>
               </div>
             </div>
           </Link>
@@ -108,6 +95,19 @@ export default class Projects extends Component {
                 <p>
                   Clone do ProductHunt, idealizado no curso básico RocketSeat.
                 </p>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/nbClone">
+            <div className="card">
+              <div className="imgCard bg7"></div>
+              <div className="cardFooter">
+                <h1>Nubank</h1>
+                <div className="cardIcons">
+                  <FaReact size={28} color="#7259C1" />
+                </div>
+                <p>Clone tela inicial do aplicativo Nubank.</p>
               </div>
             </div>
           </Link>
