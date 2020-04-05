@@ -38,7 +38,7 @@ export default class Projects extends Component {
                   <FaReact size={28} color="#17B7E8" />
                   <FaNodeJs size={28} color="#689F63" />
                 </div>
-                <p>Projeto desenvolvido durante a semana OmniStack 11</p>
+                <p>Projeto desenvolvido durante a semana OmniStack 11.</p>
               </div>
             </div>
           </Link>
@@ -51,7 +51,7 @@ export default class Projects extends Component {
                 <div className="cardIcons">
                   <FaReact size={28} color="#17B7E8" />
                 </div>
-                <p>Clone do site SkyLab da RocketSeat</p>
+                <p>Clone do site SkyLab da RocketSeat.</p>
               </div>
             </div>
           </Link>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                 <div className="cardIcons">
                   <AiOutlineHtml5 size={28} color="#FFB843" />
                 </div>
-                <p>Projeto desenvolvido durante o curso LaunchBase</p>
+                <p>Projeto desenvolvido durante o curso LaunchBase.</p>
               </div>
             </div>
           </Link>
@@ -78,7 +78,7 @@ export default class Projects extends Component {
                   <FaReact size={28} color="#17B7E8" />
                   <FaNodeJs size={28} color="#689F63" />
                 </div>
-                <p>Projeto desenvolvido durante a semana OmniStack 09</p>
+                <p>Projeto desenvolvido durante a semana OmniStack 09.</p>
               </div>
             </div>
           </Link>
@@ -91,7 +91,7 @@ export default class Projects extends Component {
                 <div className="cardIcons">
                   <FaReact size={28} color="#7259C1" />
                 </div>
-                <p>Clone tela inicial do aplicativo Nubank</p>
+                <p>Clone tela inicial do aplicativo Nubank.</p>
               </div>
             </div>
           </Link>
@@ -120,7 +120,7 @@ export default class Projects extends Component {
                 <div className="cardIcons">
                   <FaReact size={28} color="#7259C1" />
                 </div>
-                <p>Temaplate de aplicativo</p>
+                <p>Temaplate de aplicativo React-Native.</p>
               </div>
             </div>
           </Link>
@@ -133,7 +133,7 @@ export default class Projects extends Component {
                 <div className="cardIcons">
                   <AiOutlineHtml5 size={28} color="#FFB843" />
                 </div>
-                <p>Clone página inicial do Airbnb</p>
+                <p>Clone página inicial do Airbnb.</p>
               </div>
             </div>
           </Link>
